@@ -1,0 +1,111 @@
+@media screen and (max-width: 600px) {
+  /* line 5, test.scss */
+  hr {
+    width: 100% !important;
+  }
+
+  /* line 8, test.scss */
+  body {
+    width: 95%;
+  }
+
+  /* line 11, test.scss */
+  .row {
+    padding-bottom: 0px !important;
+    clear: both;
+  }
+
+  /* line 15, test.scss */
+  .id {
+    float: right;
+  }
+
+  /* line 19, test.scss */
+  h1 {
+    padding-left: 0px !important;
+    float: left;
+    padding-top: 10px !important;
+    margin: 0;
+  }
+
+  /* line 25, test.scss */
+  h2 {
+    float: left;
+  }
+
+  /* line 28, test.scss */
+  .socia {
+    padding-right: 10px;
+    height: auto;
+    width: 50%;
+    float: right;
+    clear: both;
+  }
+
+  /* line 36, test.scss */
+  .footer {
+    width: 10%;
+    float: left;
+    height: auto;
+    clear: both;
+  }
+
+  /* line 43, test.scss */
+  a {
+    width: 100%;
+  }
+}
+/* line 51, test.scss */
+h1 {
+  padding-left: 60%;
+  padding-top: 20px;
+  font-family: Showcard Gothic;
+}
+
+/* line 56, test.scss */
+h2 {
+  font-family: Showcard Gothic;
+  color: PURPLE;
+  margin: 0;
+}
+
+/* line 62, test.scss */
+.row {
+  padding-bottom: 100px;
+}
+
+/* line 65, test.scss */
+.id {
+  float: right;
+  margin: 0;
+}
+
+/* line 71, test.scss */
+.butt :hover {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+/* line 76, test.scss */
+.butt :target {
+  border: 2px solid black;
+}
+
+/* line 79, test.scss */
+.row2 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* line 83, test.scss */
+.socia {
+  box-shadow: 10px 10px 5px #888888;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+/* line 88, test.scss */
+.socia:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
