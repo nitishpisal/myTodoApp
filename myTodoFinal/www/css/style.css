@@ -1,0 +1,42 @@
+
+.newItem{
+    
+position:absolute;
+    
+right:10px;
+}
+
+
+.navbar{
+    
+position:relative;
+}
+
+.button1{
+background-color:#001EE1;
+color: white;
+border-radius: 3px;
+border:0px;
+}
+
+.button2{
+padding-left: 25px;
+padding-right: 25px;
+}
+textarea#text1{
+background-color: #B2DFDB !important;
+color: black;
+}
+
+li#text2{
+padding:25px;
+}
+
+button#addButton{
+background-color:#001EE1;
+color: white;
+border-radius: 3px;
+border:0px;
+}
+
+

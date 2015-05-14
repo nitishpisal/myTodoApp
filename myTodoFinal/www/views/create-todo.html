@@ -1,0 +1,24 @@
+<ion-header-bar class="bar-positive">
+    
+
+        <button class="button1" ui-sref="todos">Back</button>
+        <h1 class="title">Create Todo</h1>
+    
+</ion-header-bar>
+
+<ion-content>
+    <div>
+        <ion-list>
+            <li class="item item-input item-stacked-label" id="text2">
+                
+                <textarea id="text1" type="text" placeholder="Start typing..." name="content" rows="10" ng-model="todo.content" required ></textarea>
+
+            </li>
+            <div class="button2">
+            <ion-button class="button button-block button-positive" ng-click="create()">
+                Add
+            </ion-button>
+        </div>
+        </ion-list>
+    </div>
+</ion-content>
