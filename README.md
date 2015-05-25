@@ -1,3 +1,3 @@
 Nitish Pisal
 
-Simple Angular Todo Application using Ionic Framework
+Simple AngularJS Todo Application using Ionic Framework
